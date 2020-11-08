@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var loading: UIActivityIndicatorView!
     
-    var dataList: [Player]?
+    var dataList: [Data]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,11 +21,17 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         searchBar.delegate = self
         loading.isHidden = true
+    }
+    
+    // MARK: Prepare to go next controller
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "GO_DETALL_CONTROLLER" {
+            //NotificationCenter.default.removeObserver(self)
 
-        //let pla = Player(id: "", name: "", age: 3)
-        //dataList = [pla]
-
-        //tableView.reloadData()
+            let controller = segue.destination as! FichaTecnicaController
+            controller.playerId = sender as? Int
+        }
     }
 }
 
@@ -55,13 +61,12 @@ extension ViewController: UITableViewDataSource {
 }
 
 extension ViewController: UITableViewDelegate {
-
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    let indexPath = tableView.indexPathForSelectedRow
-    let currentCell = tableView.cellForRow(at: indexPath!)!
-    //print(currentCell.textLabel!.text!)
+
+    if let items = dataList {
+        performSegue(withIdentifier: "GO_DETALL_CONTROLLER", sender: items[indexPath.row].id)
+    }
   }
-    
 }
 
 extension ViewController: UISearchBarDelegate {
@@ -76,7 +81,6 @@ extension ViewController: UISearchBarDelegate {
                 self.tableView.reloadData()
                 self.loading.isHidden = true
             }
-
         }
     }
 }

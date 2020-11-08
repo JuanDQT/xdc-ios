@@ -14,8 +14,8 @@
             filePath = "dxc/controllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "dxc/controllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -40,14 +40,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F0B0D657-6F7A-4976-8C7F-30574B4CBC44"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "dxc/controllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "searchBar(_:textDidChange:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -71,69 +71,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "11F7273E-BE2B-4F13-806C-3CE5EE2982BD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "dxc/API.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "getPlayersByName(name:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "11F7273E-BE2B-4F13-806C-3CE5EE2982BD - d3f0e6d13352e51e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "dxc.API.getPlayersByName(name: Swift.String, completion: (Swift.Array&lt;dxc.Player&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "dxc"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "1782">
-               </Location>
-               <Location
-                  uuid = "11F7273E-BE2B-4F13-806C-3CE5EE2982BD - 3c695a2999b4f5df"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getPlayersByName(name: Swift.String, completion: (Swift.Array&lt;dxc.Player&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "dxc"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "283">
-               </Location>
-               <Location
-                  uuid = "11F7273E-BE2B-4F13-806C-3CE5EE2982BD - 6eac0222e739e2a6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "$defer #1 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getPlayersByName(name: Swift.String, completion: (Swift.Array&lt;dxc.Player&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "dxc"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "45">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "233CEBA3-E37E-4489-8166-22E9C2E7B5A1"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -150,15 +87,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A01B14C5-816E-436F-826F-316A8D8E013D"
+            uuid = "BE0B3637-B919-4181-B612-20E2EA103D33"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/controllers/FichaTecnicaController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC9F4303-9782-4BA9-B778-A4C18F1AD9D4"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "dxc/API.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "getPlayersByName(name:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -166,8 +119,56 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A39838CB-EEA8-4704-A701-7D3343E80CFB"
-            shouldBeEnabled = "Yes"
+            uuid = "9413092D-E415-4934-B3B4-80FA55FA9AE1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getPlayersByName(name:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9413092D-E415-4934-B3B4-80FA55FA9AE1 - 3c695a2999b4cbcf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getPlayersByName(name: Swift.String, completion: (Swift.Array&lt;dxc.Player&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "2448">
+               </Location>
+               <Location
+                  uuid = "9413092D-E415-4934-B3B4-80FA55FA9AE1 - 3c695a2999b4cbcf"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getPlayersByName(name: Swift.String, completion: (Swift.Array&lt;dxc.Player&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "2690">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07846DDE-73F2-4F4B-915B-0E8FBD259CEE"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "dxc/API.swift"
@@ -182,16 +183,432 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B10EDEA4-68B5-4A3C-98DF-09B7AF87B64B"
+            uuid = "BEF2F0F8-02CB-4220-855C-9D79C1E393F7"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "dxc/API.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "getPlayersByName(name:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "958316B4-D5A4-413A-8770-64CC3AD3CA80"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getPlayersByName(name:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "706DED63-6EDF-4908-90A0-E64D6B46745E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getPlayersByName(name:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "706DED63-6EDF-4908-90A0-E64D6B46745E - 3c695a2999b4f5fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getPlayersByName(name: Swift.String, completion: (Swift.Array&lt;dxc.Player&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1652">
+               </Location>
+               <Location
+                  uuid = "706DED63-6EDF-4908-90A0-E64D6B46745E - 3c695a2999b4f5fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getPlayersByName(name: Swift.String, completion: (Swift.Array&lt;dxc.Player&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1819">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48F9A553-0BC4-4F82-9860-E1AC53777C13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "getPlayerById(id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3FA19736-DD51-4656-8805-D3126425BE9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/controllers/FichaTecnicaController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A9BAD5F0-3EB4-46A0-AEEE-1D2807C5E6D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "getTeamById(id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A9BAD5F0-3EB4-46A0-AEEE-1D2807C5E6D6 - a2dd44e74c2bc4ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getTeamById(id: Swift.String, completion: (dxc.Team) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "2897">
+               </Location>
+               <Location
+                  uuid = "A9BAD5F0-3EB4-46A0-AEEE-1D2807C5E6D6 - a2dd44e74c2bc4ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getTeamById(id: Swift.String, completion: (dxc.Team) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "3011">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F26B24ED-A640-47B1-90D9-7912DFC753E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "getTeamById(id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F26B24ED-A640-47B1-90D9-7912DFC753E3 - a2dd44e74c2bc4c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getTeamById(id: Swift.String, completion: (dxc.Team) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "2820">
+               </Location>
+               <Location
+                  uuid = "F26B24ED-A640-47B1-90D9-7912DFC753E3 - a2dd44e74c2bc4c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getTeamById(id: Swift.String, completion: (dxc.Team) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "3078">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FEC488E-709E-4272-AEFE-C9F4DECB2C70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/controllers/FichaTecnicaController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "237766D9-E6A0-4FE0-A147-B9691B7DAE97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/controllers/FichaTecnicaController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1D5504D-3990-4988-8030-F03FFD71B7C3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/controllers/FichaTecnicaController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1D5504D-3990-4988-8030-F03FFD71B7C3 - 414439608affff21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (dxc.Data) -&gt; () in dxc.FichaTecnicaController.viewDidLoad() -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/controllers/FichaTecnicaController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "4494">
+               </Location>
+               <Location
+                  uuid = "B1D5504D-3990-4988-8030-F03FFD71B7C3 - e1d0d0d9c8da0ebe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (dxc.Team) -&gt; () in closure #1 () -&gt; () in closure #1 (dxc.Data) -&gt; () in dxc.FichaTecnicaController.viewDidLoad() -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/controllers/FichaTecnicaController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80DCF909-4FC2-439A-B630-EB2991E8EA0C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/controllers/FichaTecnicaController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80DCF909-4FC2-439A-B630-EB2991E8EA0C - e1d0d0d9c8da0ebe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (dxc.Team) -&gt; () in closure #1 () -&gt; () in closure #1 (dxc.Data) -&gt; () in dxc.FichaTecnicaController.viewDidLoad() -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/controllers/FichaTecnicaController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  uuid = "80DCF909-4FC2-439A-B630-EB2991E8EA0C - 48d60a28b9d7f777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (dxc.Team) -&gt; () in closure #1 () -&gt; () in closure #1 (dxc.Data) -&gt; () in dxc.FichaTecnicaController.viewDidLoad() -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/controllers/FichaTecnicaController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "117">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "766DAE4E-62BB-45E2-AE3B-419F077223FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getTeamById(id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9F85849-8F6E-43B3-9959-048D09443F49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "getTeamById(id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0252B204-FE45-4E1F-9E14-722079CDFFD8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "getTeamById(id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0252B204-FE45-4E1F-9E14-722079CDFFD8 - a2dd44e74c2bc5dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getTeamById(id: Swift.String, completion: (dxc.Team) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "1077">
+               </Location>
+               <Location
+                  uuid = "0252B204-FE45-4E1F-9E14-722079CDFFD8 - a2dd44e74c2bc5dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in dxc.API.getTeamById(id: Swift.String, completion: (dxc.Team) -&gt; ()) -&gt; ()"
+                  moduleName = "dxc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/juan/Downloads/dxc/dxc/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "1144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5069FE9C-4EAC-4D91-9A02-32CCFD1D1BFC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dxc/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "getTeamById(id:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

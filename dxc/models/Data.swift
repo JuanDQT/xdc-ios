@@ -7,24 +7,16 @@
 import Foundation
 
 struct Data: Decodable {
-    let players: [Player]
-    
-    enum CodingKeys: String, CodingKey {
-            case players = "data"
-        }
-}
-
-struct Player: Decodable {
     let id: Int
-    var name: String?
-    var fullName: String
+    var name: String
+    var fullName: String?
     var birthdate: String?
     var image: String?
     var teamId: Int?
     
     var height: String?
     var weight: String?
-    var nationality: String
+    var nationality: String?
     
     // Buscar por boradcast.. nombre equipo y lofo
 
@@ -42,7 +34,6 @@ struct Player: Decodable {
         case nationality
       }
     
-    // TODO: calculate getbirthdate
     func getAge() -> String {
         guard let checkDate = birthdate?.toDate() else {
             return ""
@@ -55,4 +46,17 @@ struct Player: Decodable {
         return "\(ageComponents.year!)"
         
     }
+}
+
+struct Team: Decodable {
+    let id: Int
+    var name: String?
+    var picture: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case picture = "logo_path"
+      }
+    
 }
